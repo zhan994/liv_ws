@@ -1,24 +1,18 @@
-# livox_ws
-A repo. which used to simply manage ROS SDK about livox sensors.
+# liv_ws
+A repo. which used to simply manage ROS SDK about LIV devices.
 
 ## SDK
 
 ```bash
-git clone git@github.com:zhan994/livox_ws.git
+git clone git@github.com:zhan994/liv_ws.git
 
-cd sdk/Livox-SDK
+cd sdk/Livox-SDK2
 mkdir build && cd build
 cmake ..
 make -j
 sudo make install
 
-cd ../../Livox-SDK2
-mkdir build && cd build
-cmake ..
-make -j
-sudo make install
-
-cd ../../../src/livox_ros_driver2
+cd ../../src/livox_ros_driver2
 ./build.sh ROS1
 ```
 
