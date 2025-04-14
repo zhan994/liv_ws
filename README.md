@@ -1,4 +1,4 @@
-# liv_ws
+# ws_liv
 A repo. which used to simply manage ROS SDK about LIV devices.
 
 ## SDK
